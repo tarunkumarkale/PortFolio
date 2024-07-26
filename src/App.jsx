@@ -8,7 +8,6 @@ import './index.css'
 function App() {
   return (
     <div>
-   
       <HeroHeader />
       <About />
       <Projects />

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
 import { myphoto } from '../Constant/Index';
@@ -111,4 +111,4 @@ const HeroHeader = () => {
   );
 };
 
-export default HeroHeader;
+export default memo(HeroHeader);

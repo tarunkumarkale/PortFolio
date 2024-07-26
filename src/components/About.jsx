@@ -10,7 +10,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between p-8">
+    <div className="flex flex-col md:flex-row items-center justify-between p-8"  id="aboutme">
       <div 
         className="relative w-full md:w-1/3 mb-8 md:mb-0" 
         data-aos="fade-right"

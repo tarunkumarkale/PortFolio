@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+/* src/App.css */
+
+.gas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0) 60%);
+    opacity: 0.1;
+    animation: moveGas 60s linear infinite;
+  }
+  
+  @keyframes moveGas {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

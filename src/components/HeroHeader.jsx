@@ -15,19 +15,19 @@ const HeroHeader = () => {
 
   return (
     <div className="relative w-full h-screen flex flex-col bg-black text-white">
-      <header className="w-full flex flex-wrap md:flex-nowrap p-4">
-        <div className="w-full md:w-3/5 flex justify-between items-center">
-          <div className="text-xl font-bold text-green-600">My Portfolio</div>
-          <div className="md:hidden">
-            <button className="text-white focus:outline-none" onClick={toggleMenu}>
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
-        <div className={`${isOpen ? 'block' : 'hidden'} w-full md:w-2/5 bg-black p-4 md:flex md:items-center md:justify-center`}>
-          <nav className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+      <header className="w-full flex flex-wrap md:flex-nowrap p-4 items-center justify-between">
+        <div className="text-2xl font-bold text-green-600">My Portfolio</div>
+        <button 
+          className="md:hidden text-white focus:outline-none" 
+          aria-label="Menu"
+          onClick={toggleMenu}
+        >
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <nav className={`${isOpen ? 'block' : 'hidden'} md:block w-full md:w-auto mt-4 md:mt-0`}>
+          <div className="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0 items-center">
             <Link
               to="aboutme"
               spy={true}
@@ -61,13 +61,13 @@ const HeroHeader = () => {
             >
               Contact
             </Link>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </header>
 
-      <div className="flex flex-1 flex-col sm:flex-row justify-between items-center p-11 mt-[-2rem] sm:mt-[-4rem]">
-        <div className="w-full sm:w-1/2 flex flex-col items-start justify-center">
-          <h1 className="text-4xl md:text-6xl mb-4 md:mb-6 font-bold text-green-400">
+      <div className="flex flex-1 flex-col sm:flex-row justify-between items-center p-8">
+        <div className="w-full sm:w-1/2 flex flex-col items-start justify-center space-y-4">
+          <h1 className="text-5xl md:text-6xl font-bold text-green-400 animate-bounce">
             Hi, I'm Tarun Kale
           </h1>
           <TypeAnimation
@@ -82,7 +82,7 @@ const HeroHeader = () => {
             wrapper="p"
             cursor={true}
             repeat={Infinity}
-            className="text-2xl md:text-4xl mb-4 md:mb-6 text-green-300"
+            className="text-2xl md:text-4xl text-green-300"
           />
           <div className="flex space-x-6 mt-6">
             <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
@@ -99,11 +99,11 @@ const HeroHeader = () => {
             </a>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 flex items-center justify-center relative overflow-hidden">
+        <div className="w-full sm:w-1/2 flex items-center justify-center relative">
           <img
             src={myphoto}
             alt="Your Image"
-            className="w-[60%] h-auto rounded-full relative z-10 shadow-2xl mb-11"
+            className="relative w-[60%] h-auto rounded-full shadow-2xl z-10"
           />
         </div>
       </div>

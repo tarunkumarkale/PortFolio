@@ -1,3 +1,6 @@
+
+
+
 import React, { useState, memo } from 'react';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
@@ -14,9 +17,11 @@ const HeroHeader = () => {
   };
 
   return (
-    <div className="relative w-full h-screen flex flex-col bg-black text-white">
+    <div className="relative w-full h-screen flex flex-col bg-gradient-to-b from-black via-gray-900 to-green-900 text-white">
       <header className="w-full flex flex-wrap md:flex-nowrap p-4 items-center justify-between">
-        <div className="text-2xl font-bold text-green-600">My Portfolio</div>
+        <div className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 tracking-widest">
+          Tarun Kale
+        </div>
         <button 
           className="md:hidden text-white focus:outline-none" 
           aria-label="Menu"
@@ -34,10 +39,11 @@ const HeroHeader = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-bold text-green-600 transition-colors hover:text-green-400"
+              className="relative cursor-pointer text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-transform transform hover:scale-110"
               onClick={toggleMenu}
             >
               About Me
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
             <Link
               to="projects"
@@ -45,10 +51,11 @@ const HeroHeader = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-bold text-green-600 transition-colors hover:text-green-400"
+              className="relative cursor-pointer text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-transform transform hover:scale-110"
               onClick={toggleMenu}
             >
               Projects
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
             <Link
               to="contact"
@@ -56,10 +63,11 @@ const HeroHeader = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-bold text-green-600 transition-colors hover:text-green-400"
+              className="relative cursor-pointer text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-transform transform hover:scale-110"
               onClick={toggleMenu}
             >
               Contact
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
           </div>
         </nav>
@@ -67,7 +75,8 @@ const HeroHeader = () => {
 
       <div className="flex flex-1 flex-col sm:flex-row justify-between items-center p-8">
         <div className="w-full sm:w-1/2 flex flex-col items-start justify-center space-y-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-green-400 animate-bounce">
+      
+          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-500 to-teal-400 animate-pulse">
             Hi, I'm Tarun Kale
           </h1>
           <TypeAnimation
@@ -100,14 +109,16 @@ const HeroHeader = () => {
           </div>
         </div>
         <div className="w-full sm:w-1/2 flex items-center justify-center relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20 rounded-full blur-xl animate-spin-slow"></div>
           <img
             src={myphoto}
             alt="Your Image"
-            className="relative w-[60%] h-auto rounded-full shadow-2xl z-10"
+            className="relative w-[60%] h-auto rounded-full shadow-2xl z-10 "
           />
         </div>
+        </div>
       </div>
-    </div>
+    
   );
 };
 

@@ -42,50 +42,54 @@ const ContactForm = () => {
         </h2>
         <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300 hover:w-full"></span>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="name" className="block text-lg">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="from_name" // Ensure this matches the placeholder in the template
-            value={formData.from_name}
-            onChange={handleChange}
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-          />
-        </div>
-        <div>
-          <label htmlFor="email" className="block text-lg">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="from_email" // Ensure this matches the placeholder in the template
-            value={formData.from_email}
-            onChange={handleChange}
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-          />
-        </div>
-        <div>
-          <label htmlFor="message" className="block text-lg">Message:</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-          />
-        </div>
-        <button
-          type="submit"
-          className="p-2 bg-green-500 text-white rounded hover:bg-green-600 transition-all"
-        >
-          Send Message
-        </button>
-        {status && <p className="mt-4 text-lg">{status}</p>}
-      </form>
+      <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto p-4">
+  <div>
+    <label htmlFor="name" className="block text-lg mb-1">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="from_name"
+      value={formData.from_name}
+      onChange={handleChange}
+      required
+      className="w-full p-2 rounded bg-gray-800 border border-gray-700 text-white"
+      placeholder="Enter your name"
+    />
+  </div>
+  <div>
+    <label htmlFor="email" className="block text-lg mb-1">Email:</label>
+    <input
+      type="email"
+      id="email"
+      name="from_email"
+      value={formData.from_email}
+      onChange={handleChange}
+      required
+      className="w-full p-2 rounded bg-gray-800 border border-gray-700 text-white"
+      placeholder="Enter your email"
+    />
+  </div>
+  <div>
+  <label htmlFor="message" className="block text-lg mb-1">Message:</label>
+<textarea
+  id="message"
+  name="message"
+  value={formData.message}
+  onChange={handleChange}
+  required
+  className="w-full h-40 p-2 rounded bg-gray-800 border border-gray-700 text-white"
+  placeholder="Enter your message"
+/>
+
+  </div>
+  <button
+    type="submit"
+    className="w-full p-2 bg-green-500 text-white rounded hover:bg-green-600 transition-all"
+  >
+    Send Message
+  </button>
+  {status && <p className="mt-4 text-lg text-center">{status}</p>}
+</form>
     </div>
   );
 };

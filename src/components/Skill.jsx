@@ -1,31 +1,50 @@
+
+
 import React, { memo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+// Icon imports
+import { FaCode, FaPencilRuler, FaCss3Alt, FaTools, FaDatabase, FaLightbulb, FaProjectDiagram } from 'react-icons/fa';
+import { SiOpenai } from 'react-icons/si'; // Example icon, replace with one that fits your needs.
+
+
+
 const skills = [
   {
     category: "Front-end Development",
+    icon: <FaCode />,
     items: ["JavaScript", "React.js", "CSS", "HTML"]
   },
   {
     category: "UI Design",
+    icon: <FaPencilRuler />,
     items: ["UI Design", "Responsive Design", "Figma (Basic)"]
   },
   {
     category: "CSS Frameworks",
+    icon: <FaCss3Alt />,
     items: ["Bootstrap", "Tailwind CSS"]
   },
   {
     category: "Development Tools",
+    icon: <FaTools />,
     items: ["Git", "Vite.js", "Redux", "Firebase"]
   },
   {
+    category: "AI Tools and Technologies",
+    icon: <SiOpenai />,
+    items: ["Prompt Engineering", "LinkedIn Optimization"]
+  },
+  {
     category: "Backend Development",
+    icon: <FaDatabase />,
     items: ["MongoDB (Basic)", "REST API (Basic)"]
   },
   {
     category: "Open Source Contribution",
+    icon: <FaLightbulb />,
     items: [
       "Seeking New Problems",
       "Solved 2-3 Non-Tech Problems",
@@ -35,9 +54,11 @@ const skills = [
   },
   {
     category: "Project Management",
+    icon: <FaProjectDiagram />,
     items: ["Innovative Project Creation", "Task Management", "Agile Methodologies"]
   }
 ];
+
 
 const SkillSection = () => {
   useEffect(() => {
@@ -60,8 +81,9 @@ const SkillSection = () => {
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500">
-                {skill.category}
+              <h3 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 flex items-center space-x-2">
+                {skill.icon}
+                <span>{skill.category}</span>
               </h3>
               <ul className="list-disc pl-5 space-y-2">
                 {skill.items.map((item, idx) => (

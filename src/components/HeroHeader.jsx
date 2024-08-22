@@ -1,13 +1,10 @@
-
-
-
 import React, { useState, memo } from 'react';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
 import { myphoto } from '../Constant/Index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const HeroHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +55,7 @@ const HeroHeader = () => {
               <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
             <Link
-              to="contact"
+              to="contactme"
               spy={true}
               smooth={true}
               offset={-70}
@@ -75,7 +72,6 @@ const HeroHeader = () => {
 
       <div className="flex flex-1 flex-col sm:flex-row justify-between items-center p-8">
         <div className="w-full sm:w-1/2 flex flex-col items-start justify-center space-y-4">
-      
           <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-500 to-teal-400 animate-pulse">
             Hi, I'm Tarun Kale
           </h1>
@@ -86,6 +82,8 @@ const HeroHeader = () => {
               "JavaScript and React.js Specialist",
               2000,
               "UI Designer",
+              2000,
+              "Prompt Engineering",
               2000,
             ]}
             wrapper="p"
@@ -108,17 +106,24 @@ const HeroHeader = () => {
             </a>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 flex items-center justify-center relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20 rounded-full blur-xl animate-spin-slow"></div>
-          <img
-            src={myphoto}
-            alt="Your Image"
-            className="relative w-[60%] h-auto rounded-full shadow-2xl z-10 "
-          />
-        </div>
-        </div>
-      </div>
-    
+
+<div className="relative w-full sm:w-1/2 flex items-center justify-center">
+  <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20 rounded-full blur-xl animate-spin-slow"></div>
+  <img
+    src={myphoto}
+    alt="Your Image"
+    className="relative w-[65%] h-auto rounded-full shadow-2xl z-10 "
+  />
+  <a 
+    href="/path-to-your-resume.pdf" 
+    download 
+className="absolute bottom-1 left-0 sm:bottom-7 sm:left-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-200 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-transform"
+  >
+    <FontAwesomeIcon icon={faDownload} className=' md:text-2xl  text-xl ' />
+  </a>
+</div>
+ </div> 
+    </div>
   );
 };
 

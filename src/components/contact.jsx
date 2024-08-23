@@ -100,4 +100,3 @@ export default ContactForm;
 
 
 
-//    emailjs.sendForm('Asdfghjkl$56', 'template_btpfq8s', e.target, 'BT7JodN1veyZwjhT1')

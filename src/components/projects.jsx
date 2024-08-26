@@ -39,10 +39,10 @@ const Projects = () => {
           <p className="text-gray-300 mb-4">A React.js app for buying, renting, and managing bikes with Firebase integration.</p>
           <p className="text-yellow-400 mb-4">Still Updating...</p>
           <div className="flex justify-between">
-            <a href="https://project1-link" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+            <a href=" https://tarunkumarkale.github.io/EBikes/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
               View Project
             </a>
-            <a href="https://github.com/project1-repo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+            <a href="https://github.com/tarunkumarkale/EBikes" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
               View Source Code
             </a>
           </div>
@@ -59,10 +59,10 @@ const Projects = () => {
           <p className="text-gray-300 mb-4">React + Tailwind single-page app for browsing and buying Nike shoes. Features real-time search and pop-up details.</p>
           <p className="text-yellow-400 mb-4">Still Updating...</p>
           <div className="flex justify-between">
-            <a href="https://project2-link" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+            <a href=" https://tarunkumarkale.github.io/Nike/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
               View Project
             </a>
-            <a href="https://github.com/project2-repo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+            <a href="https://github.com/tarunkumarkale/Nike" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
               View Source Code
             </a>
           </div>
@@ -79,10 +79,10 @@ const Projects = () => {
           <p className="text-gray-300 mb-4">A tool to search GitHub profiles using JavaScript. Features include user info and repository display.</p>
           <p className="text-yellow-400 mb-4">Still Updating...</p>
           <div className="flex justify-between">
-            <a href="https://project3-link" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+            <a href="https://tarunkumarkale.github.io/Search-Github-Profile/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
               View Project
             </a>
-            <a href="https://github.com/project3-repo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+            <a href="https://github.com/tarunkumarkale/Search-Github-Profile" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
               View Source Code
             </a>
           </div>

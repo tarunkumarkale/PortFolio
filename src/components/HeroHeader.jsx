@@ -108,16 +108,16 @@ const HeroHeader = () => {
             className="text-2xl md:text-4xl text-green-300"
           />
           <div className="flex space-x-6 mt-6">
-            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="https://github.com/tarunkumarkale" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faGithub} size="2x" className="text-green-400" />
             </a>
-            <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/webdev-tarunkale" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-green-400" />
             </a>
-            <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="https://twitter.com/TarunKale255963" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faTwitter} size="2x" className="text-green-400" />
             </a>
-            <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="mailto:tarunkale01@gmail.com" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faEnvelope} size="2x" className="text-green-400" />
             </a>
           </div>

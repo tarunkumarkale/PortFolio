@@ -47,12 +47,12 @@ const AboutMe = () => {
           </p>
           <div className="text-center mt-8">
             <a 
-              href="https://www.linkedin.com/in/Tarun-kale" 
+              href="https://www.linkedin.com/in/webdev-tarunkale/details/certifications/" 
               className="inline-block bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-bold py-2 px-4 rounded-full shadow-md transition-transform transform hover:scale-105 mx-2"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Check My Certificates
+              Check All My Certificates
             </a>
             <a 
               href="mailto:tarunkale01@gmail.com" 

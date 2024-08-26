@@ -107,22 +107,22 @@ const HeroHeader = () => {
           </div>
         </div>
 
-<div className="relative w-full sm:w-1/2 flex items-center justify-center">
-  <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20 rounded-full blur-xl animate-spin-slow"></div>
-  <img
-    src={myphoto}
-    alt="Your Image"
-    className="relative w-[65%] h-auto rounded-full shadow-2xl z-10 "
-  />
-  <a 
-    href="/path-to-your-resume.pdf" 
-    download 
-className="absolute bottom-1 left-0 sm:bottom-7 sm:left-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-200 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-transform"
-  >
-    <FontAwesomeIcon icon={faDownload} className=' md:text-2xl  text-xl ' />
-  </a>
-</div>
- </div> 
+        <div className="relative w-full sm:w-1/2 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20 rounded-full blur-xl animate-spin-slow"></div>
+          <img
+            src={myphoto}
+            alt="Your Image"
+            className="relative w-[65%] h-auto rounded-full shadow-2xl z-10"
+          />
+          <a 
+            href="/resume.pdf"  // Link to your resume file in the public folder
+            download
+            className="absolute bottom-1 left-0 sm:bottom-7 sm:left-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-200 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-transform"
+          >
+            <FontAwesomeIcon icon={faDownload} className='md:text-3xl text-xl' />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

@@ -43,6 +43,18 @@ const HeroHeader = () => {
               <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
             <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="relative cursor-pointer text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-transform transform hover:scale-110"
+              onClick={toggleMenu}
+            >
+                  Skills
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
+            </Link>
+            <Link
               to="projects"
               spy={true}
               smooth={true}
@@ -63,9 +75,13 @@ const HeroHeader = () => {
               className="relative cursor-pointer text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-transform transform hover:scale-110"
               onClick={toggleMenu}
             >
-              Contact
+              Contacts
               <span className="absolute left-0 bottom-0 w-0 h-1 bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 transition-all duration-300"></span>
             </Link>
+
+
+
+
           </div>
         </nav>
       </header>

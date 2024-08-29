@@ -11,16 +11,16 @@ const FollowMe = () => {
           Follow Me
         </h2>
         <div className="flex space-x-6">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
+          <a href="https://github.com/tarunkumarkale" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
             <FaGithub size={32} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
+          <a href="https://www.linkedin.com/in/webdev-tarunkale" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
             <FaLinkedin size={32} />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
+          <a href="https://twitter.com/TarunKale255963" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
             <FaTwitter size={32} />
           </a>
-          <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
+          <a href="https://medium.com/me/settings/account" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-green-500 transition-colors">
             <FaMedium size={32} />
           </a>
         </div>

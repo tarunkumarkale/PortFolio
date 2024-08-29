@@ -1,6 +1,7 @@
 import myphoto from '../assets/myphoto.png'
-import About from '../assets/About.jpg'
+import About from '../assets/About.png'
+import Resume from '../assets/resume.pdf'
 
 
 
-export  {myphoto,About}
+export  {myphoto,About,Resume}

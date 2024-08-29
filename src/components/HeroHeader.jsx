@@ -1,10 +1,11 @@
 import React, { useState, memo } from 'react';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
-import { myphoto } from '../Constant/Index';
+import { myphoto, Resume } from '../Constant/Index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+
 
 const HeroHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -131,7 +132,7 @@ const HeroHeader = () => {
             className="relative w-[65%] h-auto rounded-full shadow-2xl z-10"
           />
           <a 
-            href="/resume.pdf"  // Link to your resume file in the public folder
+            href={`${Resume}`}  
             download
             className="absolute bottom-1 left-0 sm:bottom-7 sm:left-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-200 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-transform"
           >

@@ -102,7 +102,7 @@ const Projects = () => {
             <h4 className="text-2xl font-semibold mb-2 text-green-400">Quiz App</h4>
             <p className="text-gray-300 mb-4">Simple quiz app built with HTML, CSS, and JavaScript.</p>
             <a 
-              href="https://project4-link" 
+              href=" https://tarunkumarkale.github.io/Quizapp/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"
@@ -117,7 +117,7 @@ const Projects = () => {
             <h4 className="text-2xl font-semibold mb-2 text-green-400 ">Audi Webpage Design</h4>
             <p className="text-gray-300 mb-4">Stylish webpage design for Audi using HTML, CSS, and JavaScript.</p>
             <a 
-              href="https://project5-link" 
+              href="https://tarunkumarkale.github.io/Audi/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"
@@ -132,7 +132,7 @@ const Projects = () => {
             <h4 className="text-2xl font-semibold mb-2 text-green-400">Music Player</h4>
             <p className="text-gray-300 mb-4">Interactive music player interface with controls, progress bar, and navigation icons.</p>
             <a 
-              href="https://project6-link" 
+              href="https://tarunkumarkale.github.io/Music-player/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"

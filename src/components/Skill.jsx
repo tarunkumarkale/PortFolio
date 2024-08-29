@@ -30,7 +30,7 @@ const skills = [
   {
     category: "Development Tools",
     icon: <FaTools />,
-    items: ["Git", "Vite.js", "Redux", "Firebase"]
+    items: ["Git", "Vite.js", "Redux", "Firebase",'Canvas']
   },
   {
     category: "AI Tools and Technologies",

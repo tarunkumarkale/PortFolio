@@ -114,10 +114,10 @@ const Projects = () => {
             className="bg-gray-800 p-6 rounded-lg shadow-2xl hover:bg-gray-700 transform transition-transform hover:scale-105"
             data-aos="zoom-in"
           >
-            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">Audi Webpage Design</h4>
-            <p className="text-gray-300 mb-4">Stylish webpage design for Audi using HTML, CSS, and JavaScript.</p>
+            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">netflix Webpage Design (still updating) </h4>
+            <p className="text-gray-300 mb-4">Stylish webpage design for netflix page using HTML, tailwind, and JavaScript.</p>
             <a 
-              href="https://tarunkumarkale.github.io/Audi/" 
+              href="https://tarunkumarkale.github.io/NETFLIX-UI/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"

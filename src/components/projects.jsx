@@ -3,7 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+// import project3 from "../assets/project3.png";
+import Smartwatch from "../assets/Smartwatch.gif"
 
 const Projects = () => {
   useEffect(() => {
@@ -71,18 +72,18 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={project3}
-            alt="Project 3"
+            src={Smartwatch}
+            alt="Smartwatch"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-2xl font-semibold mb-2 text-white">GitHub Search Profile</h3>
-          <p className="text-gray-300 mb-4">A tool to search GitHub profiles using JavaScript. Features include user info and repository display.</p>
+          <h3 className="text-2xl font-semibold mb-2 text-white">Smart Watch landing page</h3>
+          <p className="text-gray-300 mb-4">A modern and responsive landing page built with React and Tailwind CSS, featuring a sleek design and smooth animations. </p>
           <p className="text-yellow-400 mb-4">Still Updating...</p>
           <div className="flex justify-between">
-            <a href="https://tarunkumarkale.github.io/Search-Github-Profile/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+            <a href="https://github.com/tarunkumarkale/Smart_Watch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
               View Project
             </a>
-            <a href="https://github.com/tarunkumarkale/Search-Github-Profile" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+            <a href="https://tarunkumarkale.github.io/Smart_Watch/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
               View Source Code
             </a>
           </div>
@@ -114,10 +115,10 @@ const Projects = () => {
             className="bg-gray-800 p-6 rounded-lg shadow-2xl hover:bg-gray-700 transform transition-transform hover:scale-105"
             data-aos="zoom-in"
           >
-            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">netflix Webpage Design (still updating) </h4>
-            <p className="text-gray-300 mb-4">Stylish webpage design for netflix page using HTML, tailwind, and JavaScript.</p>
+            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">GitHub Search Profile  </h4>
+            <p className="text-gray-300 mb-4">A tool to search GitHub profiles using JavaScript. Features include user info and repository display.</p>
             <a 
-              href="https://tarunkumarkale.github.io/NETFLIX-UI/" 
+              href="https://tarunkumarkale.github.io/Search-Github-Profile/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"

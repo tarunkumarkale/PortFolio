@@ -6,7 +6,8 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import SkillSection from './components/Skill'
 import './index.css'
-import FollowMe from './components/Followme';
+import Foooter from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <SkillSection/>
       <Projects />
       <Contact />
-      <FollowMe/>
+      <Footer/>
     
     </div>
   );

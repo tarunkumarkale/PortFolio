@@ -1,7 +1,7 @@
 
 import { FaGithub, FaLinkedin, FaTwitter, FaMedium } from 'react-icons/fa';
 
-const FollowMe = () => {
+const Footer = () => {
   return (
     <div className="p-8 bg-gradient-to-b from-green-900 via-gray-900 to-black text-white" id="followme">
       <div className="flex flex-col md:flex-row items-center justify-between">
@@ -27,5 +27,5 @@ const FollowMe = () => {
   );
 };
 
-export default FollowMe;
+export default Footer;
 

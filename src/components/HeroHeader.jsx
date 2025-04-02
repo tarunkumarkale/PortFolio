@@ -129,7 +129,7 @@ const HeroHeader = () => {
           <img
             src={myphoto}
             alt="Your Image"
-            className="relative w-[70%]  lg:w-[72%] h-auto rounded-full shadow-2xl z-10"
+            className="relative w-[68%] mb-2 sm:mb-0 sm:w-[65%]  lg:w-[68%] h-auto rounded-full shadow-2xl z-10"
           />
           <a 
             href={`${Resume}`}  

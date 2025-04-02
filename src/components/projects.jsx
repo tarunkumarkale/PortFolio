@@ -5,6 +5,8 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 // import project3 from "../assets/project3.png";
 import Smartwatch from "../assets/Smartwatch.gif"
+import ebike from "../assets/ebike.gif"
+import nike from "../assets/nike.gif"
 
 const Projects = () => {
   useEffect(() => {
@@ -32,7 +34,7 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={project1}
+            src={ebike}
             alt="Project 1"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
@@ -52,7 +54,7 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={project2}
+            src={nike}
             alt="Project 2"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />

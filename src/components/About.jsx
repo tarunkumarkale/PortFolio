@@ -30,7 +30,7 @@ const AboutMe = () => {
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-3/5 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
             src={About}
-            alt="Animated Laptop"
+            alt="my pic"
             className="relative z-10 w-full h-auto rounded-full shadow-2xl"
           />
         </div>
@@ -56,7 +56,7 @@ const AboutMe = () => {
             </a>
             <a 
               href="mailto:tarunkale01@gmail.com" 
-              className="inline-block bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 text-white font-bold py-2 px-4 rounded-full shadow-md transition-transform transform hover:scale-105 mx-2"
+              className="inline-block bg-gradient-to-r mt-2 from-green-400 via-teal-500 to-blue-500 text-white font-bold py-2 px-4 rounded-full shadow-md transition-transform transform hover:scale-105 mx-2"
               data-aos="fade-up"
               data-aos-delay="400"
             >

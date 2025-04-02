@@ -1,6 +1,4 @@
 
-
-
 import { FaGithub, FaLinkedin, FaTwitter, FaMedium } from 'react-icons/fa';
 
 const FollowMe = () => {

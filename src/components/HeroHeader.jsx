@@ -129,14 +129,14 @@ const HeroHeader = () => {
           <img
             src={myphoto}
             alt="Your Image"
-            className="relative w-[65%] h-auto rounded-full shadow-2xl z-10"
+            className="relative w-[70%]  lg:w-[72%] h-auto rounded-full shadow-2xl z-10"
           />
           <a 
             href={`${Resume}`}  
             download
             className="absolute bottom-1 left-0 sm:bottom-7 sm:left-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-200 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-transform"
           >
-            <FontAwesomeIcon icon={faDownload} className='md:text-3xl text-xl' />
+            <FontAwesomeIcon icon={faDownload} className='md:text-3xl text-xl ' />
           </a>
         </div>
       </div>

@@ -93,15 +93,17 @@ const HeroHeader = () => {
             Hi, I'm Tarun Kale
           </h1>
           <TypeAnimation
-            sequence={[
-              "Frontend Developer",
-              2000,
-              "JavaScript and React.js Specialist",
-              2000,
-              "UI Designer",
-              2000,
-              "Prompt Engineering",
-              2000,
+            sequence={["Data Analyst",
+2000,
+"Business Analyst",
+2000,
+"Power BI Analyst",
+2000,
+"Python & SQL Analyst",
+2000,
+"Data Visualization Specialist",
+2000,
+
             ]}
             wrapper="p"
             cursor={true}
@@ -109,18 +111,24 @@ const HeroHeader = () => {
             className="text-2xl md:text-4xl text-green-300"
           />
           <div className="flex space-x-6 mt-6">
-            <a href="https://github.com/tarunkumarkale" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="https://github.com/tarunkkale" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faGithub} size="2x" className="text-green-400" />
             </a>
-            <a href="https://www.linkedin.com/in/webdev-tarunkale" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/tarunkale-data-business-analyst/" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-green-400" />
             </a>
-            <a href="https://twitter.com/TarunKale255963" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
-              <FontAwesomeIcon icon={faTwitter} size="2x" className="text-green-400" />
-            </a>
-            <a href="mailto:tarunkale01@gmail.com" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
+         
+            {/* <a href="mailto:tarunkale01@gmail.com" target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-110">
               <FontAwesomeIcon icon={faEnvelope} size="2x" className="text-green-400" />
-            </a>
+            </a> */}
+            <a 
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=tarunkale01@gmail.com" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="transition-transform transform hover:scale-110"
+>
+  <FontAwesomeIcon icon={faEnvelope} size="2x" className="text-green-400" />
+</a>
           </div>
         </div>
 

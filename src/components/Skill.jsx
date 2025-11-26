@@ -13,49 +13,114 @@ import { SiOpenai } from 'react-icons/si'; // Example icon, replace with one tha
 
 const skills = [
   {
-    category: "Front-end Development",
+    category: "Python Skills",
     icon: <FaCode />,
-    items: ["JavaScript", "React.js", "CSS", "HTML"]
+    items:[
+  "Python",
+  "Pandas",
+  "NumPy",
+  "SciPy",
+  "Matplotlib",
+  "Seaborn",
+  "Feature Engineering"
+]
   },
   {
-    category: "UI Design",
+    category: "SQL Skills",
     icon: <FaPencilRuler />,
-    items: ["UI Design", "Responsive Design", "Figma (Basic)"]
+    items:  [
+  "SQL",
+  "MySQL",
+  "SQL Server",
+  "Joins",
+  "CTEs",
+  "Subqueries",
+  "Aggregations",
+  "Window Functions",
+  "Lookups"
+]
   },
   {
-    category: "CSS Frameworks",
+    category: "Business Intelligence Tools",
     icon: <FaCss3Alt />,
-    items: ["Bootstrap", "Tailwind CSS"]
+    items:[
+  "Power BI",
+  "DAX",
+  "Power Query",
+  "Data Modeling",
+  "Dashboarding",
+  "Power BI Service",
+  "Reporting Automation"
+]
   },
   {
-    category: "Development Tools",
+    category: "Excel Analytic Skills",
     icon: <FaTools />,
-    items: ["Git", "Vite.js", "Redux", "Firebase",'Canvas']
+    items:[
+  "Excel",
+  "Power Query (Excel)",
+  "Pivot Tables",
+  "Excel Dashboarding",
+  "Data Cleaning"
+]
   },
   {
-    category: "AI Tools and Technologies",
+    category: "Data Analytics Techniques",
     icon: <SiOpenai />,
-    items: ["Prompt Engineering", "LinkedIn Optimization"]
+    items:  [
+  "Exploratory Data Analysis (EDA)",
+  "Statistical Analysis",
+  "Hypothesis Testing",
+  "Correlation Analysis",
+  "Segmentation",
+  "KPI Development",
+  "Data Storytelling"
+]
   },
   {
-    category: "Backend Development",
+    category: "ETL, Validation & Workflow",
     icon: <FaDatabase />,
-    items: ["MongoDB (Basic)", "REST API (Basic)"]
+    items:  ["ETL",
+  "Workflow Optimization",
+  "Data Validation",
+  "Data Wrangling",
+  "RLS (Row Level Security)"]
   },
   {
-    category: "Open Source Contribution",
+    category: "Tools & Platforms",
     icon: <FaLightbulb />,
     items: [
-      "Seeking New Problems",
-      "Solved 2-3 Non-Tech Problems",
-      "Contributed to 9 Issues",
-      "Submitted 10 Pull Requests (PRs)"
-    ]
+  "REST APIs",
+  "Firebase (Data Flow Understanding)",
+  "Git & GitHub",
+  "Power Automate",
+  "Tableau (Basics)"
+]
   },
   {
-    category: "Project Management",
+    category: "AI / Soft-Tech Skills",
     icon: <FaProjectDiagram />,
-    items: ["Innovative Project Creation", "Task Management", "Agile Methodologies"]
+    items: [
+  "Prompt Engineering",
+  "LinkedIn Optimization"
+]
+  },
+  {
+    category: "Additional Tech Skills (Frontend Skills)",
+    icon: <FaProjectDiagram />,
+    items: [
+  "JavaScript",
+  "React.js",
+  "CSS",
+  "Bootstrap",
+  "Tailwind CSS",
+  "API Integration",
+  "Angular (Basics)",
+  "Git & GitHub",
+  "Vite.js",
+  "UI Debugging",
+  "Component Testing"
+]
   }
 ];
 

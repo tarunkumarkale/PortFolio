@@ -7,6 +7,10 @@ import project2 from "../assets/project2.png";
 import Smartwatch from "../assets/Smartwatch.gif"
 import ebike from "../assets/ebike.gif"
 import nike from "../assets/nike.gif"
+import Bank from "../assets/Bank.png"
+import Hr from "../assets/Hr.png"
+import taxi from "../assets/taxi.png"
+
 
 const Projects = () => {
   useEffect(() => {
@@ -34,19 +38,19 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={ebike}
+            src={Bank}
             alt="Project 1"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-2xl font-semibold mb-2 text-white">Bike</h3>
-          <p className="text-gray-300 mb-4">A React.js app for buying, renting, and managing bikes with Firebase integration.</p>
-          <p className="text-yellow-400 mb-4">Still Updating...</p>
+          <h3 className="text-2xl font-semibold mb-2 text-white">Banking Risk Analytics</h3>
+          <p className="text-gray-300 mb-4">Python, SQL, and Power BI–based analysis of 5,000+ customer financial profiles to detect high-risk behaviors. Includes segmentation, risk scoring, correlation patterns, and DAX-driven KPIs for business lending insights.</p>
+          
           <div className="flex justify-between">
-            <a href=" https://tarunkumarkale.github.io/EBikes/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
-              View Project
+            <a href=" https://app.powerbi.com/links/ixkueHcmlX?ctid=962d9dfe-0c81-4f7f-bef0-67dcd877e3c8&pbi_source=linkShare" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+              View DashBoard
             </a>
-            <a href="https://github.com/tarunkumarkale/EBikes" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
-              View Source Code
+            <a href="https://github.com/tarunkkale/Risk-Analytics-in-Banking-.git" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+              View Project
             </a>
           </div>
         </div>
@@ -54,19 +58,19 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={nike}
+            src={taxi}
             alt="Project 2"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-2xl font-semibold mb-2 text-white">Nike Shoes</h3>
-          <p className="text-gray-300 mb-4">React + Tailwind single-page app for browsing and buying Nike shoes. Features real-time search and pop-up details.</p>
-          <p className="text-yellow-400 mb-4">Still Updating...</p>
+          <h3 className="text-2xl font-semibold mb-2 text-white">NYC Taxi Revenue Optimization</h3>
+          <p className="text-gray-300 mb-4">Analyzed 500,000+ NYC taxi trip records using Python and SQL. Performed hypothesis testing, outlier treatment, correlation analysis (r = 0.67), and revenue pattern modeling to increase average driver earnings.</p>
+        
           <div className="flex justify-between">
-            <a href=" https://tarunkumarkale.github.io/Nike/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
-              View Project
+            <a href="https://app.powerbi.com/links/b2kB84SgyC?ctid=962d9dfe-0c81-4f7f-bef0-67dcd877e3c8&pbi_source=linkShare" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+          
             </a>
-            <a href="https://github.com/tarunkumarkale/Nike" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
-              View Source Code
+            <a href="https://github.com/tarunkkale/Maximizing-Revenue-for-Taxi-Cab-Drivers-through-Payment-Type-Analysis.git" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+               View Project
             </a>
           </div>
         </div>
@@ -74,19 +78,20 @@ const Projects = () => {
         <div className="relative p-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-green-500/50">
           <div className="absolute inset-0 transform translate-y-3 translate-x-3 w-1/3 h-1/2 rounded-lg bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 opacity-20"></div>
           <img
-            src={Smartwatch}
+            src={Hr}
             alt="Smartwatch"
             className="w-full h-40 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-2xl font-semibold mb-2 text-white">Smart Watch landing page</h3>
-          <p className="text-gray-300 mb-4">A modern and responsive landing page built with React and Tailwind CSS, featuring a sleek design and smooth animations. </p>
-          <p className="text-yellow-400 mb-4">Still Updating...</p>
+          <h3 className="text-2xl font-semibold mb-2 text-white">
+HR-ANALYTICS-DASHBOARD</h3>
+          <p className="text-gray-300 mb-4">Created a Power BI dashboard with 15+ HR KPIs. Built age and salary bands, identified key attrition drivers, and improved insight clarity by 30%. Helps HR teams make data-driven retention decisions. </p>
+     
           <div className="flex justify-between">
-            <a href="https://github.com/tarunkumarkale/Smart_Watch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
-              View Project
+            <a href="https://app.powerbi.com/links/b2kB84SgyC?ctid=962d9dfe-0c81-4f7f-bef0-67dcd877e3c8&pbi_source=linkShare" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-500">
+              View Dashboard
             </a>
-            <a href="https://tarunkumarkale.github.io/Smart_Watch/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
-              View Source Code
+            <a href="https://github.com/tarunkkale/HR-ANALYTICS-DASHBOARD.git" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+              View Project
             </a>
           </div>
         </div>
@@ -94,7 +99,7 @@ const Projects = () => {
 
       <div className="mt-8 text-center text-gray-300 bg-gray-800 p-6 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500">
-          Other Projects
+      Other Technical Projects (Frontend)
         </h3>
         <p>In addition to the top projects highlighted above, I have worked on various other projects including:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -117,10 +122,10 @@ const Projects = () => {
             className="bg-gray-800 p-6 rounded-lg shadow-2xl hover:bg-gray-700 transform transition-transform hover:scale-105"
             data-aos="zoom-in"
           >
-            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">GitHub Search Profile  </h4>
-            <p className="text-gray-300 mb-4">A tool to search GitHub profiles using JavaScript. Features include user info and repository display.</p>
+            <h4 className="text-2xl font-semibold mb-2 text-green-400 ">Ebike website  </h4>
+            <p className="text-gray-300 mb-4">E-Bike website built using React.js, JavaScript, and Tailwind CSS, where users can browse, buy, or rent regular and electric bicycles.</p>
             <a 
-              href="https://tarunkumarkale.github.io/Search-Github-Profile/" 
+              href="https://tarunkumarkale.github.io/EBikes/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"
@@ -132,10 +137,10 @@ const Projects = () => {
             className="bg-gray-800 p-6 rounded-lg shadow-2xl hover:bg-gray-700 transform transition-transform hover:scale-105"
             data-aos="zoom-in"
           >
-            <h4 className="text-2xl font-semibold mb-2 text-green-400">Music Player</h4>
-            <p className="text-gray-300 mb-4">Interactive music player interface with controls, progress bar, and navigation icons.</p>
+            <h4 className="text-2xl font-semibold mb-2 text-green-400">Nike Shoes website</h4>
+            <p className="text-gray-300 mb-4">.NIke shoes website built using React.js, JavaScript, and Tailwind CSS, where users can browse, buy,branded shoes  </p>
             <a 
-              href="https://tarunkumarkale.github.io/Music-player/" 
+              href="https://tarunkumarkale.github.io/Nike/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-teal-400 hover:text-teal-500 transition-colors"

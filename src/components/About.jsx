@@ -40,10 +40,15 @@ const AboutMe = () => {
           data-aos-duration="1000"
         >
           <p className="text-lg mb-4 text-green-300 leading-relaxed" data-aos="fade-up">
-            I am a passionate Frontend Developer with hands-on experience in JavaScript, React.js, HTML5, and CSS3. At Tek Analytix, I honed my skills by building responsive, user-centric web applications that significantly enhanced user engagement and reduced bounce rates. With over 20 personal projects, including a successful e-commerce platform and a dynamic UI showcase, I excel in translating complex requirements into sleek, intuitive designs. Continuously learning and adapting, I'm currently expanding my expertise in AI tools and prompt engineering. My focus is on delivering innovative solutions that align with the latest industry trends.
+I’m Tarun Kale, a Certified Data Analyst and Business Analyst skilled in Python, SQL, Excel, Power BI, and Data Visualization. I hold professional certifications from Microsoft, IBM, and Naresh IT, where I completed hands-on training in analytics, BI reporting, and real-world project workflows.
+
+I have worked on projects in Banking Risk Analytics, Revenue Optimization, HR Insights, and Retail Dashboards, focusing on data cleaning, feature engineering, pattern analysis, and building interactive dashboards
           </p>
           <p className="text-lg mb-4 text-green-300 leading-relaxed" data-aos="fade-up">
-            Currently, I am advancing my expertise through be10X, delving into AI tools and prompt engineering to stay at the forefront of web development trends. I showcase my latest projects on GitHub and actively engage with the developer community on LinkedIn, demonstrating my commitment to continuous learning and professional growth.
+        I also completed a frontend trainee role at Tek Analytix, Pune, where I worked with React, JavaScript, CSS, Bootstrap, Tailwind, and Angular. During this training, I gained practical exposure to UI development, debugging, API integration, and component testing. This experience helped me build strong problem-solving skills and improved my understanding of how applications handle data and user interactions.
+Currently, I am working on an in-depth Banking Risk Analytics project, analyzing customer behavior, financial indicators, and risk patterns to identify high-risk segments and improve lending decisions.
+
+I actively share my projects on GitHub and stay engaged with the data community on LinkedIn as part of my continuous growth in Data Analytics.
           </p>
           <div className="text-center mt-8">
             <a 
@@ -55,7 +60,8 @@ const AboutMe = () => {
               Check All My Certificates
             </a>
             <a 
-              href="mailto:tarunkale01@gmail.com" 
+               href="https://mail.google.com/mail/?view=cm&fs=1&to=tarunkale01@gmail.com" 
+  target="_blank" 
               className="inline-block bg-gradient-to-r mt-2 from-green-400 via-teal-500 to-blue-500 text-white font-bold py-2 px-4 rounded-full shadow-md transition-transform transform hover:scale-105 mx-2"
               data-aos="fade-up"
               data-aos-delay="400"

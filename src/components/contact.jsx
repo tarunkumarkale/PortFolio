@@ -123,7 +123,8 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('Asdfghjkl$56', 'template_btpfq8s', e.target, 'BT7JodN1veyZwjhT1')
+emailjs.sendForm('service_ivt50hx','template_btpfq8s', e.target,'BT7JodN1veyZwjhT1')
+
       .then(() => {
         toast.success("Message sent successfully!", { position: "top-left" });
 
@@ -210,3 +211,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
